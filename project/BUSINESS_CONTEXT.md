@@ -1,58 +1,82 @@
 # MTL-XF-027 — Business context
 
-## Organisation and pressure
+## Organisation and decision owner
 
-**Regional Trade Exposure, Export Concentration & Market Diversification Intelligence.** An economic-development board needs to understand whether its regional economy is too dependent on a small number of export markets or product groups and where market-diversification support should be investigated.
+**Simulated client:** Confidential Regional Economic Development & Trade Board. **Accountable executive:** Director of International Trade & Regional Economic Strategy. **Review cadence:** quarterly regional export and diversification review.
 
-The simulated sponsor, Confidential Regional Economic Development & Trade Board, must decide where to direct limited analytical and service-review attention. Its starting problem is an inconsistent view of regional trade exposure, export concentration & market diversification intelligence: totals, rates, periods and categories can lead users to different conclusions without a common definition. The engagement supplies an evidence base; it does not assume the client has already suffered a quantified failure.
+This fictional directorate/board is an engagement scenario, not an assertion of a real client's circumstances. The source data remains official public/open data.
 
-## Current process and its consequences
+## Business problem
 
-Analysts retrieve official tables independently, prepare local summaries and discuss headline differences in management meetings. Without a shared cohort and definition register, revisions, incomparable denominators and missing coverage can pass into recommendations. The consequence is an investigation shortlist that cannot be explained or reproduced, rather than a verified estimate of financial loss.
+The board wants to target export support where dependence or weakening activity may be concentrated, but an England-wide EU/non-EU chart cannot tell it which English region or product section is driving exposure. A regional trade total also cannot reveal whether a few individual destination countries dominate. The project must provide the appropriate regional evidence and make the level of aggregation visible.
 
-## Required decision process
+## Why the current process is insufficient
 
-1. Confirm the reporting cohort and available dimensions.
-2. Review governed metrics and quality exceptions before interpreting patterns.
-3. Compare like-for-like trends and segment evidence against the questions below.
-4. Challenge at least two prioritisation scenarios and document changes in shortlisted cases.
-5. Assign a responsible role, evidence-gathering action and review point to every proposed investigation.
+The current scenario relies on separately prepared reports without a common source/metric contract. The material failure to prevent is specific: An England chart or partial category list may be misrepresented as regional market-concentration evidence.
 
-**Decision:** What does the agreed regional trade-in-goods series establish about exposure and volatility, and what additional official country/product detail is required before making diversification recommendations?
+This creates uncertainty over which cases need investigation and which comparisons should be rejected. No quantified loss, backlog, budget deficit or service failure is invented as a client fact.
 
-## Business questions and evidence
+## Stakeholders and decisions
 
-| Question | Expected evidence |
+| Simulated stakeholder | Decision / review responsibility |
 | --- | --- |
-| How do regional export and import values change over comparable quarters? | Reconciled trend/segment table and diagnostic chart with period, grain, denominator and source references. |
-| Which regions show persistent export weakness or volatility? | Reconciled trend/segment table and diagnostic chart with period, grain, denominator and source references. |
-| How does each region's share of a compatible England total change? | Segment or coverage assessment stating which comparisons are supported. |
-| Does the source actually contain partner/product detail needed for concentration? | Sensitivity or scope audit showing what changes the interpretation. |
-| Which official additional tables and denominator definitions would make diversification analysis defensible? | Investigation plan with missing evidence, owner and decision-review trigger. |
+| Director of International Trade & Regional Economic Strategy | Accountable for scope, investigation priorities, accepted limitations and final business sign-off. |
+| Export Support Programme Lead | Select regional/sector outreach investigations and identify business evidence needed. |
+| Regional Economist | Interpret nominal trade values and valid time comparisons. |
+| Trade Statistics Steward | Approve geographic allocation, SITC level and partner-group definitions. |
+| Trade Risk & Evaluation Lead | Challenge concentration calculations and unsupported diversification benefits. |
 
-## Intended management use
+## Commissioned decision
 
-- Produce regional aggregate export/import trends, four-quarter totals and volatility diagnostics.
-- Audit workbook dimensions and write a signed scope statement showing whether country/product concentration is possible.
-- Shortlist up to ten regional investigation cases and deliver either a defensible concentration analysis with registered extensions or a precise official-data acquisition plan.
+Which English regions and broad product sections warrant export-support investigation, and what additional individual-market evidence is needed before targeted diversification recommendations?
 
-The BI executive view starts with the commissioned question, reporting period and coverage. Users inspect a diagnostic view before reading the investigation shortlist. Every case records the signal, its magnitude, uncertainty, alternative explanations, evidence still needed and a next-step owner. The final briefing must explain at least one case where the evidence is insufficient for action.
+## Practical management use case
 
-## Measures of project value
+At the quarterly meeting, the Director selects an English region and reviews goods exports, SITC section mix and available partner-group exposure in the matching HMRC tables. A high section share prompts outreach scoping, while a request to identify individual destination markets is routed to a separately registered detailed extract. The board receives an investigation recommendation with a clear distinction between broad group exposure and country-level market concentration.
 
-Success means a repeatable review with five supported findings, five reconciled dashboard measures, two compared decision scenarios, ten UAT scenarios and a reproducible handover. Teams may propose a future operational baseline and improvement target, but must label these as proposed measures rather than achieved benefits. No observed savings or service improvement can be claimed from this simulated engagement alone.
+## Current-to-target workflow
 
-## Interpretation and evidence limits
+1. **Before review:** analyst registers the approved files, coverage and definitions; steward checks the cohort and unresolved exceptions.
+2. **At review:** Director of International Trade & Regional Economic Strategy opens the overview, then inspects diagnostics and the underlying eligible population before considering a case.
+3. **Challenge:** the relevant stakeholder compares the alternative scenario and asks whether the signal survives missingness, comparability and denominator checks.
+4. **Action:** each accepted case records investigation type, responsible service role, missing evidence, next review and what finding would reverse the recommendation.
+5. **Follow-up:** the next quarterly regional export and diversification review records evidence received and the decision, without claiming the analytical signal itself caused an improvement.
 
-- Regional aggregate data cannot reveal partner-country or product concentration.
-- Goods trade excludes services; nominal trade values do not directly measure real growth or regional prosperity.
-- Avoid summing overlapping regions, flows or incompatible allocation methods.
+## Required analytical response
 
-## Dependencies and risks
+- Produce regional export/import comparisons from S2 and a separate England context view from S1.
+- Assess supported SITC-section mix and partner-group exposure at the actual table grain; reconcile exhaustive category sets before concentration calculations.
+- Compare latest-quarter and trailing-four-quarter review scenarios where history permits, then deliver up to ten regional/section investigation cases with individual-market evidence gaps.
 
-- Source/schema validation may narrow the scope: record an explicit impact decision rather than inventing fields.
-- Data revisions may alter findings: preserve immutable source manifests and rerun comparisons.
-- Small, suppressed or non-comparable segments may distort ordering: apply eligibility rules and show excluded cases.
-- Local context or operational records may be missing: attach an evidence request to the relevant recommendation.
+## Measurable project outcomes
 
-The domain roles in [the brief](PROJECT_BRIEF.md) own interpretation; the simulated review panel owns decisions.
+1. Regional outputs use S2 or an approved equivalent; S1 is explicitly England context.
+2. Every concentration metric declares category level, complete denominator and suppressed/unallocated treatment.
+3. The final brief distinguishes SITC-section concentration, partner-group exposure and unavailable individual-country concentration.
+
+## Proposed benefit monitoring
+
+At kickoff, record a baseline review process and propose measures for: time to regenerate the agreed evidence pack; proportion of agenda recommendations with a complete evidence chain; and proportion of accepted investigations with a role owner and next review. The target for recommendation traceability and ownership is 100%; regeneration time is measured during the independent rerun, with no fabricated pre-project baseline or claimed reduction. These are proposed management measures, not achieved service benefits.
+
+## Scope and evidence limits
+
+**Core:** Retain agreed England Figure 1 as contextual source S1. Add the official Q2 2026 accompanying ODS as required regional source S2 to support the repository's regional scope; freeze its actual historical coverage and use only matching periods. Core delivery includes English ITL1 comparisons, available mutually exclusive SITC-section exposure and EU/non-EU or other valid partner-group splits. If S2 cannot support a required dimension, the Week 2 gate blocks that output until a registered official replacement is approved.
+
+**Extensions:** Individual-country HHI/top-three-market shares require an exhaustive compatible country extract and are optional until registered. Detailed product-by-country interactions, services trade and causal export-support impact are outside core. An England aggregate is never relabelled an English region.
+
+- S1 is an England aggregate; regional comparisons require S2. Grouped partners and SITC sections do not establish individual-country/product-market concentration.
+- Goods trade excludes services; nominal values do not directly measure real growth or regional prosperity.
+- Use complete non-overlapping category partitions; preserve allocation, revision and methodology-break caveats.
+
+## Risks, mitigations and escalation
+
+- **Interpretation risk:** An England chart or partial category list may be misrepresented as regional market-concentration evidence. The domain specialist reviews definitions and DT1–DT10 before sign-off.
+- **Source risk:** Official regional scope, S2 link and explanatory notes verified; workbook sheets, contiguous period coverage, partitions, suppression and checksums pending. The steward records unresolved items at G1; mandatory gaps block dependent outputs.
+- **Decision risk:** prioritisation assumptions may affect which cases appear. Show alternative scenarios, excluded cases and evidence that could change a recommendation.
+- **Delivery risk:** limited time or skills can leave undocumented manual steps. Assign a second-member rerun and retain contribution/review evidence throughout the eight weeks.
+
+## Evidence chain
+
+Stakeholder requirement → registered source and valid cohort → governed field/metric → tested transformation → reconciled finding → scenario reason code → investigation owner/evidence request → simulated UAT and sign-off.
+
+Every major recommendation must be traceable through this chain.

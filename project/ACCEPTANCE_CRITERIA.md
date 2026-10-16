@@ -1,47 +1,59 @@
-# MTL-XF-027 — Acceptance criteria
+# MTL-XF-027 — Acceptance criteria and domain tests
 
-**Decision to support:** What does the agreed regional trade-in-goods series establish about exposure and volatility, and what additional official country/product detail is required before making diversification recommendations?
+**Business decision owner:** Director of International Trade & Regional Economic Strategy. **Decision:** Which English regions and broad product sections warrant export-support investigation, and what additional individual-market evidence is needed before targeted diversification recommendations?
 
-These criteria assess delivery quality; they do not certify real operational outcomes. Complete a requirement → deliverable → test → evidence → reviewer matrix in the team repository.
+## Delivery sign-off
 
-| ID | Deliverables | Pass condition | Acceptance owner |
+| ID | Deliverables | Required pass evidence | Acceptance owner |
 | --- | --- | --- | --- |
-| AC1 | D1 | Eight or more prioritised requirements map to a named user, deliverable, acceptance test and reviewer. | Business Analyst / simulated sponsor |
-| AC2 | D2 | 100% of core and extension inputs have exact source URL, actual version/coverage, retrieval timestamp, licence evidence, byte size and SHA-256; mutable endpoints have one approved snapshot. | Data Governance Analyst |
-| AC3 | D3 | A distinct reviewer reruns the same frozen inputs in the documented environment and obtains equivalent curated rows and values; explain any nondeterministic ordering. | Data Engineer / independent reviewer |
-| AC4 | D4 | Every input row is accounted for in retained/excluded/quarantined counts; zero unexplained key duplicates; all join multiplication is quantified. | Data Engineer / domain analyst |
-| AC5 | D4–D5 | At least five source cells across two periods or segments reconcile exactly for counts and within source precision for rounded measures. Each tolerance is declared before testing. | Domain analyst / assurance reviewer |
-| AC6 | D5 | All 8 listed measures have definitions, source lineage and edge-case behaviour; conditional unavailable metrics show an explicit reason, no fabricated value. | Data Governance Analyst / BI Developer |
-| AC7 | D6 | At least five findings state scope, magnitude, comparison and limitation; all five business questions are answered or have an evidenced data gap. | Domain analyst |
-| AC8 | D7 | Up to ten investigation cases have reason codes, supporting metrics, an owner and missing-evidence request; at least two priority scenarios show membership/rank changes and rationale. | Specialist policy/operations role |
-| AC9 | D8 | At least five headline BI values reconcile to curated output; all visible filters, reset behaviour, period labels, units and quality warnings are tested. | BI Developer / UAT reviewer |
-| AC10 | D9 | At least ten scenarios include the four mandatory domain cases, calculation, filtering, missingness and reproducibility; expected/actual results and evidence recorded; zero unresolved critical/high defects. | Assurance reviewer |
-| AC11 | D10–D11 | Independent clean rerun evidence, maximum two-page briefing and 15–20 minute presentation exist; every numerical recommendation links to a tested metric/artefact. | Delivery Lead / review panel |
-| AC12 | D12 | Each member has evidence-linked authored and reviewed work, role ownership and presentation/handover contribution; master/team repository distinction maintained. | Delivery Lead |
+| AC1 | D1 | Eight user requirements cover the commissioned questions, named stakeholder actions and core/extension boundary. | Business Analyst / Director of International Trade & Regional Economic Strategy |
+| AC2 | D2 | 100% of used source files have approved provenance, version/coverage, licence, retrieval UTC and SHA-256. Required fields and reference versions are checked. | Data Governance Analyst |
+| AC3 | D3 | Every input row is accounted for; keys and all many-to-many/hierarchy effects have explicit checks and no unexplained duplication. | Data Engineer / independent reviewer |
+| AC4 | D4 | Five source cells reconcile within a declared rounding tolerance; all material differences and non-additive totals are explained. | Domain specialist |
+| AC5 | D5 | All 9 metric contracts are classified core/conditional and have tested definitions; no unsupported fields or fabricated unavailable values. | Data Governance Analyst / BI Developer |
+| AC6 | D6 | Five findings cover all business questions or evidence gaps; period, eligible population, magnitude, comparison and limitation are visible. | Domain analyst |
+| AC7 | D7 | The project-specific baseline and alternative below are implemented; eligibility, scenario changes, reason codes and evidence requests are visible. | Director of International Trade & Regional Economic Strategy |
+| AC8 | D8 | Five BI measures reconcile to curated outputs; all filters/reset/export retain the scope, units and limitations. | BI Developer / operational UAT user |
+| AC9 | D9 | DT1–DT10 have actual execution evidence and expected/actual outcomes; no unresolved critical/high defect. | Independent reviewer |
+| AC10 | D10 | A distinct member's clean rerun reproduces equivalent core outputs with documented environment and checks. | Independent rerun reviewer |
+| AC11 | D11 | Two-page maximum briefing and 15–20 minute presentation answer the decision and assign investigation owners without unsupported outcomes. | Director of International Trade & Regional Economic Strategy / Mettelo panel |
+| AC12 | D12 | Every member links substantive authored and reviewed work, including handover or presentation contribution. | Delivery Lead |
 
-## Required domain acceptance cases
+## Project-specific business success
 
-1. Reconcile five region/quarter/flow values and verify workbook units.
-2. Test a missing quarter invalidates a four-quarter total.
-3. Test that country/product metrics are unavailable when required dimensions are absent.
-4. Explain any difference between summed regions and the published England total.
+1. Regional outputs use S2 or an approved equivalent; S1 is explicitly England context.
+2. Every concentration metric declares category level, complete denominator and suppressed/unallocated treatment.
+3. The final brief distinguishes SITC-section concentration, partner-group exposure and unavailable individual-country concentration.
 
-Each case needs test input/reference, expected result, actual result, pass/fail, evidence path, tester, reviewer and execution date. Add cases until there are at least ten; do not count a written assertion as an executed test.
+## Required prioritisation and sensitivity
 
-## Specific analytical sign-off
+Compare regional export weakening and broad product-section concentration as separate review dimensions. Compute section HHI/top-three shares only from a complete non-overlapping section partition that reconciles to its parent. Partner-group exposure is labelled at its actual aggregation level. Compare latest-quarter and trailing-four-quarter scenarios where the frozen tables provide sufficient contiguous history.
 
-- Produce regional aggregate export/import trends, four-quarter totals and volatility diagnostics.
-- Audit workbook dimensions and write a signed scope statement showing whether country/product concentration is possible.
-- Shortlist up to ten regional investigation cases and deliver either a defensible concentration analysis with registered extensions or a precise official-data acquisition plan.
+Record each case's entity/segment, valid period, supporting measures, reason code, scenario position, missing evidence, responsible operational role, next review and manual-review trigger. Fewer than ten cases is valid; padding unsupported cases fails acceptance.
 
-Reviewers must verify the declared cohort and grain:
+## DT1–DT10 — minimum executed domain tests
 
-Freeze the agreed HMRC England Figure 1 ODS, intended quarterly coverage from Q1 2021 onward. Inspect its actual sheet dimensions and endpoint. The core is regional aggregate trade assessment. Country/product concentration is conditional: if those dimensions are absent, deliver an explicit evidence-gap and extension specification rather than invented concentration metrics.
+| Test | Input / action | Expected pass evidence |
+| --- | --- | --- |
+| DT1 | Reconcile five S2 region/period/flow values and confirm currency units. | Five selected published values reproduce within declared source precision, with explicit source coordinates and scope. |
+| DT2 | Test missing-quarter handling or reject unsupported rolling calculations. | The invalid comparison, join or denominator is rejected or flagged according to the documented rule; no silent fallback. |
+| DT3 | Block country-level metrics when only broad partner groups are supplied. | The edge case produces an explicit unavailable/exclusion result or a supported calculation, with affected rows quantified. |
+| DT4 | Quantify any residual between available regional/component sums and a compatible parent. | The domain boundary remains visible in the analytical output and BI product; no unsupported inference. |
+| DT5 | England aggregate Figure 1 is loaded without S2 | Regional comparisons are blocked; no invented regional rows. |
+| DT6 | Section shares are 0.5, 0.3 and 0.2 in a complete toy partition | HHI = 0.38 on 0–1 scale, or 3,800 on 0–10,000 scale; scale is labelled. |
+| DT7 | Only the top three products are supplied without the remainder | Do not calculate full-distribution HHI or imply complete market coverage. |
+| DT8 | EU/non-EU shares are available but individual countries are not | Label broad-group exposure; country-level concentration remains unavailable. |
+| DT9 | Region components omit unallocated trade | Reconcile to a compatible parent or show the residual explicitly. |
+| DT10 | Quarterly history spans a methodology break | Flag or exclude incompatible changes; document the affected comparison. |
 
-Quarter × published region × trade flow × measure/unit, plus only dimensions actually present. Imports, exports and balances remain distinct. Do not infer partner-country or product breakdowns from regional totals.
+Worked values are **synthetic test fixtures**, not claims about the public data or simulated client. For each test retain requirement ID, source/input or fixture, expected result, actual result, evidence link, tester, independent reviewer and date. DT1–DT4 additionally require the documented project-specific rule; their general evidence descriptions do not waive the named domain condition. Add dashboard/filter tests as needed beyond these ten.
 
-## Failed or unavailable evidence
+## Scope gate and unresolved issues
 
-A conditional metric may be marked unavailable when the source lacks its dimensions, with a documented alternative or evidence request. This does not waive the core model, dashboard or assurance. A change to a mandatory requirement needs a change log entry with impact and simulated-panel approval. Missing sources mean the data freeze remains pending; do not mark a source gate passed.
+**Mandatory core:** Retain agreed England Figure 1 as contextual source S1. Add the official Q2 2026 accompanying ODS as required regional source S2 to support the repository's regional scope; freeze its actual historical coverage and use only matching periods. Core delivery includes English ITL1 comparisons, available mutually exclusive SITC-section exposure and EU/non-EU or other valid partner-group splits. If S2 cannot support a required dimension, the Week 2 gate blocks that output until a registered official replacement is approved.
 
-Critical/high means a defect materially changes a headline value, cohort, recommendation, provenance or reproducibility. Such defects block final acceptance. Lower-severity limitations need named acceptance and disclosed effect. No stakeholder approval may be invented; record simulated UAT as simulated.
+**Optional extensions:** Individual-country HHI/top-three-market shares require an exhaustive compatible country extract and are optional until registered. Detailed product-by-country interactions, services trade and causal export-support impact are outside core. An England aggregate is never relabelled an English region.
+
+A mandatory source/field gap blocks the affected deliverable and must be resolved by a registered official replacement or approved, versioned scope change. An explicitly optional result may be unavailable with a reason and a useful evidence request. Neither missing raw data nor unexecuted tests may be marked passed.
+
+A critical/high defect materially changes a headline value, cohort, recommendation, provenance or reproducibility and blocks release. Lower-impact issues require a named acceptance owner and disclosed impact. All panel feedback and approvals must be recorded honestly as simulated where applicable.

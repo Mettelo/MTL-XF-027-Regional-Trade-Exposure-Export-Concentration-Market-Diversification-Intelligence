@@ -1,66 +1,68 @@
 # MTL-XF-027 — Project brief
 
-## Engagement
+This is a **simulated confidential-client engagement using official public/open data**. Client and stakeholder role labels describe a fictional engagement; do not claim a real external Mettelo customer, employment, endorsement or privileged data access. No raw data is uploaded by this specification update.
 
-This is a **simulated confidential-client engagement** using official public/open data. The client label is fictional and intentionally anonymous. Do not imply a real external Mettelo customer, employment by that client, privileged access or confidential source data. Public source statistics remain public; the engagement framing does not make them confidential.
+**Client:** Confidential Regional Economic Development & Trade Board. **Decision owner:** Director of International Trade & Regional Economic Strategy. **Team:** 6–8. **Duration:** 8 weeks. **Review:** quarterly regional export and diversification review.
 
-**Simulated sponsor:** Confidential Regional Economic Development & Trade Board. **Duration:** 8 weeks. **Team:** 6–8 members. **Track:** Cross-Functional. **Sector:** International Trade / Economic Development.
+## Business problem and commission
 
-## Commission
+The board wants to target export support where dependence or weakening activity may be concentrated, but an England-wide EU/non-EU chart cannot tell it which English region or product section is driving exposure. A regional trade total also cannot reveal whether a few individual destination countries dominate. The project must provide the appropriate regional evidence and make the level of aggregation visible.
 
-What does the agreed regional trade-in-goods series establish about exposure and volatility, and what additional official country/product detail is required before making diversification recommendations?
+> Which English regions and broad product sections warrant export-support investigation, and what additional individual-market evidence is needed before targeted diversification recommendations?
 
-**Regional Trade Exposure, Export Concentration & Market Diversification Intelligence.** An economic-development board needs to understand whether its regional economy is too dependent on a small number of export markets or product groups and where market-diversification support should be investigated.
+## Core deliverable boundary
 
-## Outcomes and boundaries
+Retain agreed England Figure 1 as contextual source S1. Add the official Q2 2026 accompanying ODS as required regional source S2 to support the repository's regional scope; freeze its actual historical coverage and use only matching periods. Core delivery includes English ITL1 comparisons, available mutually exclusive SITC-section exposure and EU/non-EU or other valid partner-group splits. If S2 cannot support a required dimension, the Week 2 gate blocks that output until a registered official replacement is approved.
 
-- Produce regional aggregate export/import trends, four-quarter totals and volatility diagnostics.
-- Audit workbook dimensions and write a signed scope statement showing whether country/product concentration is possible.
-- Shortlist up to ten regional investigation cases and deliver either a defensible concentration analysis with registered extensions or a precise official-data acquisition plan.
+**Optional / out of core:** Individual-country HHI/top-three-market shares require an exhaustive compatible country extract and are optional until registered. Detailed product-by-country interactions, services trade and causal export-support impact are outside core. An England aggregate is never relabelled an English region.
 
-Deliver evidence for a management investigation decision, with an auditable shortlist of up to ten cases and at least two alternative prioritisation scenarios. Do not manufacture a full shortlist where the data supports fewer cases. Findings may conclude that evidence is insufficient.
+File availability does not prove dimensional support. Before analytical build, the team completes the source→field→metric→deliverable matrix in [data guidance](../data/README.md). Missing mandatory support blocks the gate and requires an approved official replacement or scope decision.
 
-**Data boundary:** Freeze the agreed HMRC England Figure 1 ODS, intended quarterly coverage from Q1 2021 onward. Inspect its actual sheet dimensions and endpoint. The core is regional aggregate trade assessment. Country/product concentration is conditional: if those dimensions are absent, deliver an explicit evidence-gap and extension specification rather than invented concentration metrics.
+## Analytical model
 
-**Model boundary:** Quarter × published region × trade flow × measure/unit, plus only dimensions actually present. Imports, exports and balances remain distinct. Do not infer partner-country or product breakdowns from regional totals.
+Quarter × published region × trade flow × measure/unit, plus only dimensions actually present. Imports, exports and balances remain distinct. Do not infer partner-country or product breakdowns from regional totals.
 
-**Out of scope:** real operational deployment, confidential case-level data, guaranteed savings/outcome improvements, paid-source dependencies and automatic allocation of services or funding. Optional modelling or enriched sources must not delay or replace the core D1–D12 pack.
+The source contract above controls where a general grain description is conditional. Do not create dimensions absent from the approved input.
 
-## Users and acceptance owners
+## Objectives
 
-- Simulated sponsor/review panel: approves commissioned question, changes and final investigation recommendation.
-- Domain service/planning user: checks whether diagnostic evidence supports the proposed review action.
-- Data steward: verifies source/version, licence, definitions, quality and retention evidence.
-- BI user: tests overview, drill-down, filters and limitations.
-- Independent reviewer: verifies calculations, rerun and requirement-to-test traceability.
+1. Regional outputs use S2 or an approved equivalent; S1 is explicitly England context.
+2. Every concentration metric declares category level, complete denominator and suppressed/unallocated treatment.
+3. The final brief distinguishes SITC-section concentration, partner-group exposure and unavailable individual-country concentration.
 
-These are simulated stakeholder roles, not claims of access to a real organisation.
+## Business questions
 
-## Work allocation
+1. How do regional export and import values change over comparable quarters?
+2. Which regions show persistent export weakness or volatility?
+3. How does each region's share of a compatible England total change?
+4. How concentrated are complete SITC-section partitions, and what partner-group exposure is supported?
+5. What individual-country detail is still needed before selecting specific export markets?
 
-| Accountable role | Project responsibility and evidence |
+## Cross-functional delivery model
+
+| Delivery role | Required project contribution |
 | --- | --- |
-| Business Analyst / Delivery Lead | Own the commissioned decision for Confidential Regional Economic Development & Trade Board; record at least eight prioritised requirements, each linked to a deliverable and test; maintain weekly scope and decision logs. |
-| Data Governance Analyst | Register every 027 input and critical field; approve the frozen cohort, licence evidence, glossary and 100% headline-KPI lineage before analysis. |
-| Data Engineer | Implement the stated 027 analytical grain, ingestion and exclusions; deliver a clean rerun with row-count/checksum evidence and no unexplained key duplicates. |
-| BI Developer | Build executive, diagnostic and quality views for the commissioned decision; reconcile at least five 027 dashboard measures and test every visible filter. |
+| Business Analyst / Delivery Lead | Map the quarterly regional export and diversification review, document eight prioritised user requirements and maintain requirement→deliverable→test links; Director of International Trade & Regional Economic Strategy owns business approval. |
+| Data Governance Analyst | Own the MTL-XF-027 source/metadata register, cohort decision, licence evidence and 100% headline-measure lineage; resolve the specific risk: An England chart or partial category list may be misrepresented as regional market-concentration evidence. |
+| Data Engineer | Implement the declared facts, keys, hierarchy and join controls; account for every source row and deliver a second-member reproducible run at the chosen MTL-XF-027 scope. |
+| BI Developer | Implement the quarterly regional export and diversification review overview, diagnostic and quality pages; reconcile five measures and ensure cohort/extension warnings survive filters and export. |
 | Trade & Regional Economy Analyst | Validate region/flow definitions and interpret at least five reconciled values. |
 | Trade Data Governance Analyst | Own the dimension audit and register each additional partner/product source before concentration work. |
 | Trade Policy & Risk Analyst | Write the regional investigation shortlist and test whether diversification claims exceed the available evidence. |
 
-At kickoff, replace role ownership with named team members and record review partners in `CONTRIBUTIONS.md`. Multiple roles per member are permitted, but critical calculations need a reviewer distinct from their author.
+Assign named team members and review partners at kickoff; roles may be combined, but a distinct member must review critical calculations and perform the final clean rerun. The executive and operational stakeholder roles are specified in [business context](BUSINESS_CONTEXT.md).
 
-## Working stages
+## Required investigation approach
 
-1. Week 1: agree at least eight requirements and define expected decisions.
-2. Week 2: inspect actual file schemas, establish available coverage and approve cohort freeze.
-3. Week 3: implement and reconcile analytical facts, keys and exclusions.
-4. Week 4: approve the 8-measure KPI catalogue and denominator rules.
-5. Week 5: complete five supported findings and domain comparisons.
-6. Week 6: compare two decision scenarios, produce the investigation shortlist and BI draft.
-7. Week 7: execute ten or more assurance/UAT scenarios, including project-specific edge cases.
-8. Week 8: independent rerun, executive briefing, presentation and final handover.
+Compare regional export weakening and broad product-section concentration as separate review dimensions. Compute section HHI/top-three shares only from a complete non-overlapping section partition that reconciles to its parent. Partner-group exposure is labelled at its actual aggregation level. Compare latest-quarter and trailing-four-quarter scenarios where the frozen tables provide sufficient contiguous history.
 
-## Sign-off
+## Milestones and acceptance
 
-Follow [D1–D12](DELIVERABLES.md) and [AC1–AC12](ACCEPTANCE_CRITERIA.md). Approve only with reproducible evidence, no unresolved critical/high defects and transparent conditional-data limitations. A change in source availability must be logged; do not silently substitute a newer release.
+| Gate | Reviewers | Evidence / decision |
+| --- | --- | --- |
+| G1 — scope/source, end Week 2 | Business Analyst + Data Governance Analyst + domain specialist | Approve actual period, geography, grain, required input and field support in a source-to-deliverable matrix. Official regional scope, S2 link and explanatory notes verified; workbook sheets, contiguous period coverage, partitions, suppression and checksums pending. Unsupported mandatory outputs remain blocked, not quietly reclassified as completed. |
+| G2 — model/metrics, end Week 4 | Data Engineer + domain specialist + independent reviewer | Approve row accounting, keys, hierarchy, join cardinality, five source reconciliations and all core metric definitions. |
+| G3 — analytical decision review, end Week 6 | Director of International Trade & Regional Economic Strategy + operational stakeholders | Compare regional export weakening and broad product-section concentration as separate review dimensions. Compute section HHI/top-three shares only from a complete non-overlapping section partition that reconciles to its parent. Partner-group exposure is labelled at its actual aggregation level. Compare latest-quarter and trailing-four-quarter scenarios where the frozen tables provide sufficient contiguous history. Retain an evidence-insufficient case and a manual review route. |
+| G4 — release, end Week 8 | Simulated Mettelo panel + independent reviewer | Accept D1–D12 only after ten executed domain tests, five BI reconciliations, clean rerun evidence and resolution of all critical/high defects. |
+
+D1–D12 are defined in [deliverables](DELIVERABLES.md). AC1–AC12 and DT1–DT10 are defined in [acceptance criteria](ACCEPTANCE_CRITERIA.md). No real production deployment, automatic funding/service allocation, private-client data or paid-source dependency is required.

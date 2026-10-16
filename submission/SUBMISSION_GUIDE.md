@@ -1,33 +1,30 @@
 # MTL-XF-027 — Submission guide
 
-## What to submit
+## Submit
 
-Submit the Mettelo organisation team repository URL, final commit/tag, completed `submission/FINAL_SUBMISSION.md`, and links to D1–D12. Use the provided [template](FINAL_SUBMISSION_TEMPLATE.md). The final version must remain reproducible after review; record changes made after submission.
+Provide the team repository URL, final commit/tag, completed `submission/FINAL_SUBMISSION.md`, D1–D12 evidence index, dashboard/free review path, two-page briefing and 15–20 minute presentation. Use [the template](FINAL_SUBMISSION_TEMPLATE.md).
 
-## Before submitting
+## Before submission
 
-1. Confirm the repository README states the simulated engagement and commissioned decision: What does the agreed regional trade-in-goods series establish about exposure and volatility, and what additional official country/product detail is required before making diversification recommendations?
-2. Complete the source manifest and cohort sign-off. Freeze the agreed HMRC England Figure 1 ODS, intended quarterly coverage from Q1 2021 onward. Inspect its actual sheet dimensions and endpoint. The core is regional aggregate trade assessment. Country/product concentration is conditional: if those dimensions are absent, deliver an explicit evidence-gap and extension specification rather than invented concentration metrics.
-3. Link the requirements matrix, model, field lineage, quality/reconciliation evidence and all 8 metric definitions.
-4. Link at least five findings and the up-to-ten-case investigation shortlist, including owners, evidence gaps and two compared scenarios.
-5. Reconcile at least five headline dashboard measures and test all visible filters; provide a free review path and static export.
-6. Execute ten or more UAT scenarios, including all domain cases below. Resolve critical/high defects and disclose any accepted remaining limitations.
-7. Have another member reproduce the core outputs using documented steps; retain the run environment, checks and results.
-8. Complete contribution evidence for each member and prepare the two-page briefing and 15–20 minute presentation.
+1. Confirm the [core and optional contract](../project/PROJECT_BRIEF.md) and final approved source-to-deliverable matrix.
+2. Resolve mandatory source/field gaps; link actual manifest, licence evidence, metadata and freeze approval.
+3. Link the eight requirements, analytical model, metric definitions and five source reconciliations.
+4. Link five supported findings and the project-specific baseline/alternative investigation scenarios.
+5. Show up to ten supported cases with operational owners, evidence requests and review triggers.
+6. Reconcile five BI values, test filters/reset/export, and execute [DT1–DT10](../project/ACCEPTANCE_CRITERIA.md).
+7. Resolve critical/high defects and record accepted remaining impacts.
+8. Retain a second-member clean rerun and evidence-linked contributions for every member.
 
-## Required domain checks
+## Business outcomes to demonstrate
 
-1. Reconcile five region/quarter/flow values and verify workbook units.
-2. Test a missing quarter invalidates a four-quarter total.
-3. Test that country/product metrics are unavailable when required dimensions are absent.
-4. Explain any difference between summed regions and the published England total.
+1. Regional outputs use S2 or an approved equivalent; S1 is explicitly England context.
+2. Every concentration metric declares category level, complete denominator and suppressed/unallocated treatment.
+3. The final brief distinguishes SITC-section concentration, partner-group exposure and unavailable individual-country concentration.
 
-## Panel presentation
+## Simulated panel review
 
-Explain the decision, actual cohort and limitations; demonstrate one source-to-KPI-to-dashboard chain; present five findings; compare two prioritisation scenarios; justify the investigation cases; show one case where action is not supported; describe next evidence-gathering steps and named role ownership.
+Present to **Director of International Trade & Regional Economic Strategy** and relevant stakeholders. Demonstrate the quarterly regional export and diversification review: open the overview, investigate one signal, trace it to raw-source evidence and calculation, compare the alternative scenario, and explain the proposed investigation and missing evidence. Include one case where action is not supported.
 
-Expect challenges on definitions, denominators, exclusions, comparability, threshold choices, sensitivity, reproducibility and contribution. Label feedback and approvals as simulated where appropriate. Do not invent contact with real stakeholders.
+Expect challenges on the specific risk: An England chart or partial category list may be misrepresented as regional market-concentration evidence.
 
-## Acceptance and changes
-
-Use [AC1–AC12](../project/ACCEPTANCE_CRITERIA.md) to record pass/fail, evidence and reviewer. An unavailable conditional analysis needs a supported explanation and alternative; it cannot be disguised as a result. Source changes require registration, impact review and rerun. Final acceptance is recorded by the simulated Mettelo review panel, not self-certified as a real-client outcome.
+Record actual simulated feedback and decisions honestly; do not claim contact with real stakeholders. Numerical claims must link to tested artefacts. After submission, record any changes and their impact on the final version.

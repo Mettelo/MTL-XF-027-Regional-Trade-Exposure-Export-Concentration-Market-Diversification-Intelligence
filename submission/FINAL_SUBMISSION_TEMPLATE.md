@@ -1,121 +1,95 @@
 # MTL-XF-027 — Final submission: Regional Trade Exposure, Export Concentration & Market Diversification Intelligence
 
-Complete this template in your team repository as `submission/FINAL_SUBMISSION.md`. Replace prompts with evidence; leave unavailable items explicitly unavailable with reasons. This template itself is not completed delivery evidence.
+Complete in the team repository as `submission/FINAL_SUBMISSION.md`. This is a template, not delivery evidence. Replace prompts with actual links/results; never invent approvals, hashes or test outcomes.
 
 ## Team and version
 
-- Team repository URL:
-- Team name and individual GitHub accounts:
+- Team repository, name and member GitHub accounts:
+- Named delivery owners and independent reviewers:
+- Reviewed master specification URL/commit:
 - Final commit/tag and submission date:
-- Master specification URL and reviewed commit:
-- Delivery dates:
-- Named role owners and independent reviewers:
-- Engagement declaration: simulated confidential-client engagement using official public/open data; no real-client employment, endorsement or privileged access claimed.
+- Delivery start/end dates:
+- Declaration: simulated confidential-client engagement using official public/open data; no real-client employment, endorsement or privileged access claimed.
 
-## Commissioned decision
+## Business answer
 
-What does the agreed regional trade-in-goods series establish about exposure and volatility, and what additional official country/product detail is required before making diversification recommendations?
+**Decision owner:** Director of International Trade & Regional Economic Strategy  
+**Decision:** Which English regions and broad product sections warrant export-support investigation, and what additional individual-market evidence is needed before targeted diversification recommendations?
 
-State the answer, confidence, principal limitation and proposed investigation action.
+State the answer, confidence, principal limitation, proposed investigation and responsible stakeholder role. Explain how it fits the quarterly regional export and diversification review.
 
-## Actual cohort and provenance
+## Scope and data support
 
-Agreed boundary: Freeze the agreed HMRC England Figure 1 ODS, intended quarterly coverage from Q1 2021 onward. Inspect its actual sheet dimensions and endpoint. The core is regional aggregate trade assessment. Country/product concentration is conditional: if those dimensions are absent, deliver an explicit evidence-gap and extension specification rather than invented concentration metrics.
+Link approved core/extension contract and source-to-deliverable matrix. Record actual source versions, retrieval UTC, licences, checksums, schema/grain, periods, exclusions and freeze sign-off. Document any required supplement/fallback, why activated, what it replaces and how overlap is handled. Explicitly list unsupported mandatory requirements as blockers and optional items as unavailable with reasons.
 
-Record actual frozen files/versions, manifest/checksums, source-register link, licence evidence, retrieval timestamp, schema/coverage validation, inclusions/exclusions and approved deviations. Do not mark acquisition complete without evidence.
+## Delivery evidence
 
-## Evidence index
+| Deliverable | Artefact / owner / reviewer / status |
+| --- | --- |
+| D1 — Discovery & requirements | To complete |
+| D2 — Sources, governance & cohort contract | To complete |
+| D3 — Reproducible model & ingestion | To complete |
+| D4 — Quality, source reconciliation & exceptions | To complete |
+| D5 — Governed metric catalogue | To complete |
+| D6 — Domain assessment | To complete |
+| D7 — Investigation framework & scenarios | To complete |
+| D8 — Decision-support BI | To complete |
+| D9 — Assurance & simulated UAT | To complete |
+| D10 — Technical & operational handover | To complete |
+| D11 — Executive briefing & presentation | To complete |
+| D12 — Contribution & delivery record | To complete |
 
-| Deliverable | Artefact link | Owner / reviewer | Status / limitation |
-| --- | --- | --- | --- |
-| D1 — Discovery & decision requirements | To complete | To complete | To complete |
-| D2 — Governed sources & cohort | To complete | To complete | To complete |
-| D3 — Reproducible analytical model | To complete | To complete | To complete |
-| D4 — Quality & reconciliation | To complete | To complete | To complete |
-| D5 — KPI catalogue | To complete | To complete | To complete |
-| D6 — Domain analytical assessment | To complete | To complete | To complete |
-| D7 — Investigation decision framework | To complete | To complete | To complete |
-| D8 — BI decision-support product | To complete | To complete | To complete |
-| D9 — Independent assurance & UAT | To complete | To complete | To complete |
-| D10 — Technical & operational handover | To complete | To complete | To complete |
-| D11 — Executive recommendation | To complete | To complete | To complete |
-| D12 — Contribution & delivery record | To complete | To complete | To complete |
+## Project-specific success
 
-## Governed measures
+1. Regional outputs use S2 or an approved equivalent; S1 is explicitly England context. — evidence/status: To complete.
+2. Every concentration metric declares category level, complete denominator and suppressed/unallocated treatment. — evidence/status: To complete.
+3. The final brief distinguishes SITC-section concentration, partner-group exposure and unavailable individual-country concentration. — evidence/status: To complete.
 
-| Required measure | Definition/source/test link | Result / unavailable reason |
-| --- | --- | --- |
-| Export value | To complete | To complete |
-| Import value | To complete | To complete |
-| Goods trade balance | To complete | To complete |
-| Year-on-year export change | To complete | To complete |
-| Regional export share | To complete | To complete |
-| Trailing four-quarter exports | To complete | To complete |
-| Export variability | To complete | To complete |
-| Country/product concentration — conditional | To complete | To complete |
+## Five findings and investigation recommendation
 
-## Business questions and five findings
+For each business question link quantitative evidence, scope, comparison, magnitude, uncertainty and limitation. Include up to ten supported cases with reason codes, baseline/alternative position, missing evidence, operational owner and next review. Explain how scenario changes affect the recommendation and include an evidence-insufficient case.
 
-1. How do regional export and import values change over comparable quarters?
-2. Which regions show persistent export weakness or volatility?
-3. How does each region's share of a compatible England total change?
-4. Does the source actually contain partner/product detail needed for concentration?
-5. Which official additional tables and denominator definitions would make diversification analysis defensible?
-
-For each question record the finding, quantitative evidence, period/grain, comparison, uncertainty, limitation and artefact link. Record an evidenced gap where the data cannot answer it.
-
-## Investigation shortlist and sensitivity
-
-Provide up to ten supported cases. For each: entity/segment, signal and magnitude, eligibility, reason code, scenario membership, proposed investigation, responsible role, missing evidence and review trigger. Compare at least two scenarios and explain membership/rank changes. Include a case where evidence is insufficient for action.
-
-## Acceptance and assurance
+## Acceptance and testing
 
 | Criterion | Pass/fail / evidence / reviewer |
 | --- | --- |
-| AC1 (D1) | To complete |
-| AC2 (D2) | To complete |
-| AC3 (D3) | To complete |
-| AC4 (D4) | To complete |
-| AC5 (D4–D5) | To complete |
-| AC6 (D5) | To complete |
-| AC7 (D6) | To complete |
-| AC8 (D7) | To complete |
-| AC9 (D8) | To complete |
-| AC10 (D9) | To complete |
-| AC11 (D10–D11) | To complete |
-| AC12 (D12) | To complete |
+| AC1 | To complete |
+| AC2 | To complete |
+| AC3 | To complete |
+| AC4 | To complete |
+| AC5 | To complete |
+| AC6 | To complete |
+| AC7 | To complete |
+| AC8 | To complete |
+| AC9 | To complete |
+| AC10 | To complete |
+| AC11 | To complete |
+| AC12 | To complete |
 
-Record at least ten executed UAT scenarios, expected/actual results, defect severity/disposition and five reconciled BI measures. Mandatory cases:
+| Domain test | Actual result / evidence / tester / reviewer |
+| --- | --- |
+| DT1 — Reconcile five S2 region/period/flow values and confirm currency units. | To complete |
+| DT2 — Test missing-quarter handling or reject unsupported rolling calculations. | To complete |
+| DT3 — Block country-level metrics when only broad partner groups are supplied. | To complete |
+| DT4 — Quantify any residual between available regional/component sums and a compatible parent. | To complete |
+| DT5 — England aggregate Figure 1 is loaded without S2 | To complete |
+| DT6 — Section shares are 0.5, 0.3 and 0.2 in a complete toy partition | To complete |
+| DT7 — Only the top three products are supplied without the remainder | To complete |
+| DT8 — EU/non-EU shares are available but individual countries are not | To complete |
+| DT9 — Region components omit unallocated trade | To complete |
+| DT10 — Quarterly history spans a methodology break | To complete |
 
-1. Reconcile five region/quarter/flow values and verify workbook units.
-2. Test a missing quarter invalidates a four-quarter total.
-3. Test that country/product metrics are unavailable when required dimensions are absent.
-4. Explain any difference between summed regions and the published England total.
+Link expected outcomes in [the master acceptance criteria](https://github.com/Mettelo/MTL-XF-027-Regional-Trade-Exposure-Export-Concentration-Market-Diversification-Intelligence/blob/main/project/ACCEPTANCE_CRITERIA.md) or a retained copy tied to the reviewed specification commit. Record all additional BI/filter tests, five source checks, five BI reconciliations, defect severity/disposition and accepted limitations. Synthetic test values must be labelled synthetic.
 
-## Reproducible handover
+## Reproducibility and executive delivery
 
-- Environment/tool versions and dependencies:
-- Input snapshot location and checksum verification:
-- Clean run instructions and output locations:
-- Independent rerun reviewer/date/duration/results:
-- Reconciliation evidence and permitted rounding:
-- Refresh/change process and known failure modes:
+- Environment/dependencies, input manifest and clean run steps:
+- Independent reviewer/date/duration/output-equivalence evidence:
+- Refresh/fallback/change procedure and known failure modes:
+- Dashboard/free review instructions and static export:
+- Maximum two-page briefing and 15–20 minute presentation:
+- Proposed benefit measures and actual measured rerun time; no invented before/after savings:
 
-## Executive delivery
+## Contributions and review
 
-- Two-page briefing link:
-- Presentation link and 15–20 minute duration:
-- Dashboard/free access instructions and static export:
-- Recommendations, missing evidence, responsible roles and next review:
-
-## Contributions
-
-For every member link authored artefacts, review work, issues/PRs/commits and presentation/handover contribution. Link `CONTRIBUTIONS.md`; commit count alone is insufficient.
-
-## Limitations and review decision
-
-- Regional aggregate data cannot reveal partner-country or product concentration.
-- Goods trade excludes services; nominal trade values do not directly measure real growth or regional prosperity.
-- Avoid summing overlapping regions, flows or incompatible allocation methods.
-
-Add actual limitations, optional extensions, unresolved accepted issues and their impacts. Record simulated panel review date, reviewers and decision only after review occurs. Do not claim real operational savings or outcome improvements.
+Link `CONTRIBUTIONS.md` and every member's authored artefacts, reviews, issues/PRs/commits and presentation/handover work. Record simulated panel reviewers/date/decision only after the review occurs. Include unresolved limitations and approved scope changes; do not claim real operational outcomes.
