@@ -4,7 +4,7 @@
 **Client:** Confidential Regional Economic Development & Trade Board  
 **Accountable simulated executive:** Director of International Trade & Regional Economic Strategy  
 **Sector:** International Trade / Economic Development  
-**Team:** 6–8 people · **Window:** 8 weeks  
+**Team:** 3–5 people · **Window:** 8 weeks  
 **Status:** documentation revised; file acquisition and cohort freeze pending  
 **Review cadence:** quarterly regional export and diversification review
 
