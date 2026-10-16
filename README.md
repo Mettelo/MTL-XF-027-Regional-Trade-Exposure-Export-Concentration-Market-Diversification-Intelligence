@@ -10,9 +10,15 @@
 
 > This is a **simulated confidential-client engagement using official public/open data**. Client and stakeholder role labels describe a fictional engagement; do not claim a real external Mettelo customer, employment, endorsement or privileged data access. No raw data is uploaded by this specification update.
 
+## Business setting
+
+The simulated regional economic-development and trade board reviews export-support priorities each quarter. Its programme team must decide which English regional/product-section exposures deserve outreach scoping and which requests need more detailed market evidence.
+
 ## Business problem
 
-The board wants to target export support where dependence or weakening activity may be concentrated, but an England-wide EU/non-EU chart cannot tell it which English region or product section is driving exposure. A regional trade total also cannot reveal whether a few individual destination countries dominate. The project must provide the appropriate regional evidence and make the level of aggregation visible.
+The Director of International Trade & Regional Economic Strategy needs to explain why a region or broad product section should receive export-support investigation. An England-wide goods chart cannot locate a regional issue, and an EU/non-EU split cannot identify individual destination-market dependency. Nominal export movement alone also does not distinguish a broad volume story from price or product-mix effects.
+
+Without the correct regional evidence, outreach priorities can follow the loudest headline rather than a supported exposure. The commission is a quarterly regional review using the required HMRC accompanying tables, with a separate England context panel and a clear route from broad exposure to a specific further market enquiry.
 
 ## Commissioned decision
 
@@ -20,9 +26,13 @@ The board wants to target export support where dependence or weakening activity 
 
 ## Practical use
 
-At the quarterly meeting, the Director selects an English region and reviews goods exports, SITC section mix and available partner-group exposure in the matching HMRC tables. A high section share prompts outreach scoping, while a request to identify individual destination markets is routed to a separately registered detailed extract. The board receives an investigation recommendation with a clear distinction between broad group exposure and country-level market concentration.
+At the quarterly board meeting, the Regional Economist selects an English ITL1 region and compares its goods-export movement and supported SITC-section mix with the England context. The Export Support Programme Lead checks whether a proposed case is robust to latest-quarter versus trailing-four-quarter comparison where compatible history exists.
 
-The full [business context](project/BUSINESS_CONTEXT.md) names operational stakeholders, decisions, risks and proposed benefit measures.
+The Director commissions a regional/section outreach-scoping enquiry or requests a detailed country extract before discussing destination diversification. The case records the exact broad exposure, programme owner and next evidence request. A partner-group split is never used to name a destination country, and goods evidence is not presented as the whole regional economy.
+
+**Management handover:** A quarterly trade review pack with separate England and regional views, supported section/partner-group exposure, period sensitivity and an outreach-scoping register. Every proposed diversification enquiry must state whether country-level evidence is available or still required.
+
+The full [business context](project/BUSINESS_CONTEXT.md) sets out stakeholders, decisions, evidence limits and proposed benefit measures.
 
 ## What must be delivered
 

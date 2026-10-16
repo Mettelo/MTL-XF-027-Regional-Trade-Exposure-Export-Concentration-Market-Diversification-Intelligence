@@ -6,15 +6,19 @@
 
 This fictional directorate/board is an engagement scenario, not an assertion of a real client's circumstances. The source data remains official public/open data.
 
+## Business setting and immediate planning need
+
+The simulated regional economic-development and trade board reviews export-support priorities each quarter. Its programme team must decide which English regional/product-section exposures deserve outreach scoping and which requests need more detailed market evidence.
+
 ## Business problem
 
-The board wants to target export support where dependence or weakening activity may be concentrated, but an England-wide EU/non-EU chart cannot tell it which English region or product section is driving exposure. A regional trade total also cannot reveal whether a few individual destination countries dominate. The project must provide the appropriate regional evidence and make the level of aggregation visible.
+The Director of International Trade & Regional Economic Strategy needs to explain why a region or broad product section should receive export-support investigation. An England-wide goods chart cannot locate a regional issue, and an EU/non-EU split cannot identify individual destination-market dependency. Nominal export movement alone also does not distinguish a broad volume story from price or product-mix effects.
+
+Without the correct regional evidence, outreach priorities can follow the loudest headline rather than a supported exposure. The commission is a quarterly regional review using the required HMRC accompanying tables, with a separate England context panel and a clear route from broad exposure to a specific further market enquiry.
 
 ## Why the current process is insufficient
 
-The current scenario relies on separately prepared reports without a common source/metric contract. The material failure to prevent is specific: An England chart or partial category list may be misrepresented as regional market-concentration evidence.
-
-This creates uncertainty over which cases need investigation and which comparisons should be rejected. No quantified loss, backlog, budget deficit or service failure is invented as a client fact.
+The board's context chart and the programme team's regional questions operate at different levels of aggregation. Regional totals, broad product sections and partner groups can be conflated into an unsupported claim about individual markets. The replacement must show the table grain, reconcile complete category partitions and distinguish core regional/product-section questions from optional country-level analysis.
 
 ## Stakeholders and decisions
 
@@ -32,15 +36,15 @@ Which English regions and broad product sections warrant export-support investig
 
 ## Practical management use case
 
-At the quarterly meeting, the Director selects an English region and reviews goods exports, SITC section mix and available partner-group exposure in the matching HMRC tables. A high section share prompts outreach scoping, while a request to identify individual destination markets is routed to a separately registered detailed extract. The board receives an investigation recommendation with a clear distinction between broad group exposure and country-level market concentration.
+At the quarterly board meeting, the Regional Economist selects an English ITL1 region and compares its goods-export movement and supported SITC-section mix with the England context. The Export Support Programme Lead checks whether a proposed case is robust to latest-quarter versus trailing-four-quarter comparison where compatible history exists.
+
+The Director commissions a regional/section outreach-scoping enquiry or requests a detailed country extract before discussing destination diversification. The case records the exact broad exposure, programme owner and next evidence request. A partner-group split is never used to name a destination country, and goods evidence is not presented as the whole regional economy.
 
 ## Current-to-target workflow
 
-1. **Before review:** analyst registers the approved files, coverage and definitions; steward checks the cohort and unresolved exceptions.
-2. **At review:** Director of International Trade & Regional Economic Strategy opens the overview, then inspects diagnostics and the underlying eligible population before considering a case.
-3. **Challenge:** the relevant stakeholder compares the alternative scenario and asks whether the signal survives missingness, comparability and denominator checks.
-4. **Action:** each accepted case records investigation type, responsible service role, missing evidence, next review and what finding would reverse the recommendation.
-5. **Follow-up:** the next quarterly regional export and diversification review records evidence received and the decision, without claiming the analytical signal itself caused an improvement.
+**Target management handover:** A quarterly trade review pack with separate England and regional views, supported section/partner-group exposure, period sensitivity and an outreach-scoping register. Every proposed diversification enquiry must state whether country-level evidence is available or still required.
+
+The meeting's decision record must contain: the selected case and reporting period; the source-backed finding; the decision to investigate, watch, clarify or close; the responsible stakeholder role; the specific additional evidence requested; and the next review point. Add the evidence that would reverse or narrow the recommendation. A watchlist or no-action conclusion is valid when supported; do not fill the shortlist simply to reach ten cases.
 
 ## Required analytical response
 
@@ -56,7 +60,9 @@ At the quarterly meeting, the Director selects an English region and reviews goo
 
 ## Proposed benefit monitoring
 
-At kickoff, record a baseline review process and propose measures for: time to regenerate the agreed evidence pack; proportion of agenda recommendations with a complete evidence chain; and proportion of accepted investigations with a role owner and next review. The target for recommendation traceability and ownership is 100%; regeneration time is measured during the independent rerun, with no fabricated pre-project baseline or claimed reduction. These are proposed management measures, not achieved service benefits.
+Measure whether all regional recommendations cite the required regional table and declare their product/partner aggregation; target 100%. Simulated board users must distinguish broad section concentration from individual-country dependency. Export growth attributable to support requires a later evaluation design.
+
+Record the preparation and review baseline at kickoff, then measure evidence-pack regeneration during the independent rerun. No pre-project time saving or achieved operational benefit is assumed. The eight-week engagement is assessed on the usability and traceability of the decision pack; later service outcomes require separate follow-up.
 
 ## Scope and evidence limits
 

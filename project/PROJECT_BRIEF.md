@@ -6,9 +6,17 @@ This is a **simulated confidential-client engagement using official public/open 
 
 ## Business problem and commission
 
-The board wants to target export support where dependence or weakening activity may be concentrated, but an England-wide EU/non-EU chart cannot tell it which English region or product section is driving exposure. A regional trade total also cannot reveal whether a few individual destination countries dominate. The project must provide the appropriate regional evidence and make the level of aggregation visible.
+The simulated regional economic-development and trade board reviews export-support priorities each quarter. Its programme team must decide which English regional/product-section exposures deserve outreach scoping and which requests need more detailed market evidence.
+
+The Director of International Trade & Regional Economic Strategy needs to explain why a region or broad product section should receive export-support investigation. An England-wide goods chart cannot locate a regional issue, and an EU/non-EU split cannot identify individual destination-market dependency. Nominal export movement alone also does not distinguish a broad volume story from price or product-mix effects.
+
+Without the correct regional evidence, outreach priorities can follow the loudest headline rather than a supported exposure. The commission is a quarterly regional review using the required HMRC accompanying tables, with a separate England context panel and a clear route from broad exposure to a specific further market enquiry.
 
 > Which English regions and broad product sections warrant export-support investigation, and what additional individual-market evidence is needed before targeted diversification recommendations?
+
+**Required management handover:** A quarterly trade review pack with separate England and regional views, supported section/partner-group exposure, period sensitivity and an outreach-scoping register. Every proposed diversification enquiry must state whether country-level evidence is available or still required.
+
+See [the management use case](BUSINESS_CONTEXT.md#practical-management-use-case) for how the review meeting uses this evidence.
 
 ## Core deliverable boundary
 
